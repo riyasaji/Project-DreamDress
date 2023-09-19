@@ -1,0 +1,95 @@
+TOPIC : ONLINE WOMEN’S DRESS STORE
+The online dress store concept provides women with the flexibility to shop from the comfort of their homes, access a diverse selection of fashion items, and stay updated with the latest trends without the need to visit physical retail locations.
+The store's user-friendly interface simplifies browsing through a well-organized categorization of products. With intuitive navigation and clear sections, customers can easily find dresses according to occasions, styles, sizes, and more. This seamless categorization enhances user satisfaction by simplifying the shopping journey and making it convenient to discover and customize the perfect dress.
+In addition, real-time checking ensures that the selected customizations are instantly reflected, allowing customers to visualize the final product before purchasing
+
+Front End: HTML/CSS , Bootstrap
+Back End: Python -Django  
+
+Key Modules:
+Admin
+Seller(user)
+Customer(user)
+Tailors(user)
+Courier service(user)
+
+Modules for Mini Project
+
+1.	User Authentication and Registration:
+•	Implement user registration and login functionality.
+•	Utilize secure authentication mechanisms.
+•	Allow users to reset passwords in case they forget them.
+
+2.	Product Catalog and Management(Sellers and Admin):
+•	Develop a module to add, edit, and manage various products.
+•	Include fields for product images, descriptions, prices, sizes, and colors.
+
+3.	 Product Detail Page:
+•	Create detailed product pages with high-quality images and descriptions.
+•	Display product specifications, available sizes, colors, and customer reviews.
+
+4.	Shopping Cart:
+•	Allow users to add products to their shopping carts.
+•	Display the contents of the cart and the total price.
+
+5.	Payment Gateway:
+•	Implement a secure payment options for just item and even if many items are added to the cart.
+    
+6.	   Search Optimization:
+•	Implement a search bar to allow users to search for specific products.
+
+7.	   Wishlist:
+•	Implement a wishlist feature that allows users to save products for later.
+•	Provide the ability to move items from the wishlist to the shopping cart.
+
+8.	   User Profiles:
+•	Allow users to create and manage their profiles.
+•	Include options to update personal information, addresses, and communication preferences.
+
+9.	   Promotions and Discounts:
+•	Implement a module for adding and managing promotional offers, discounts, and coupon codes.
+
+10.	Admin Dashboard:
+•	Allow administrators to add/edit products, view orders, and manage user accounts.
+
+Modules for Main Project
+
+11.	Filtering and Categorization of Products:
+•	Provide filters to refine search results by category, size, color, and price range.
+•	Categorizing Products based on Age Group , season (Summer Winter) and festivals.
+•	Prioritizing products based to the review and ratings
+
+12.	Order Management:
+•	Enable users to view their order history and status.
+•	Provide order tracking information and delivery estimates.
+
+13.	Logistics and Delivery Tracking:
+                   Connect with logistics services to manage shipping and order tracking.
+
+14.	TRY ON:
+•	Customers can take picture  of full length and try one the selected dresss.
+•	Recommendation of the dress 
+   
+15.	CUSTOMIZATION:
+•	Customers can Customize the type of dress they want by selecting the running materials , Design of neck and dress pattern ,
+•	Correspondingly total price(visible to the customer in the same frame) wil be changing according to the item they select.
+•	Tailors can take this order and stitch accordingly.
+
+
+16.	Customer Support:
+•	Offer a contact form or live chat for customer inquiries(CHAT BOT)
+•	Include a Frequently Asked Questions (FAQ) section
+
+17.	Analytics and Reporting:
+•	Include tools to generate sales reports, track popular products, and monitor user engagement.
+
+18.	Social Sharing and Reviews:
+•	Enable users to share products on social media platforms.
+•	Allow users to leave reviews and ratings for products.
+
+19.	Admin Dashboard:
+•	Develop an admin panel for managing products, orders, and users.
+•	Allow administrators to add/edit products, view orders, and manage user accounts.
+•	Graphical representation and analytics of sellers and users.
+
+
