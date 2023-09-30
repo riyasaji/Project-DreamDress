@@ -309,7 +309,7 @@ ol {
 }
 
 .site-navbar.bg-dark {
-	background-color: #262626 !important;
+	background-color: #5d3333 !important;
 }
 
 .site-logo h2 {
@@ -382,7 +382,7 @@ ol {
 
 .hs-item h2 {
 	font-size: 160px;
-	color: #fff;
+	color: rgb(244, 228, 11);
 	font-weight: 400;
 	margin-bottom: 20px;
 	position: relative;
@@ -399,7 +399,7 @@ ol {
 .hs-item .next-hs {
 	position: absolute;
 	width: 302px;
-	height: 471px;
+	height: 350px;
 	right: -55px;
 	border: 20px solid #fff;
 	border-right: none;

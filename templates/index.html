@@ -36,7 +36,7 @@
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark site-navbar">
 			<a class="navbar-brand site-logo" href="index.html#">
 				<!--<img src="/static/img/favicon.png" alt="" ></h6>-->
-				<h2><img src="/static/img/favicon.png" alt="" width="60" height="60"><span> Dream</span>Dress</h2>
+				<h2><img src="/static/img/favicon.png" alt="" width="40" height="40"><span> Dream</span>Dress</h2>
 				<p>Fashion Forward</p>
 			</a>
 			<button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -50,7 +50,7 @@
 						<a class="nav-link" href="#">Home</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="about.html">the Brand</a>
+						<a class="nav-link" href="about.html">The Brand</a>
 					</li>
 					<!--<li class="nav-item">
 						<a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -64,9 +64,11 @@
 					<li class="nav-item">
 						<a class="nav-link" href="contact.html">Contact</a>
 					</li>-->
+					<li class="nav-item">
 					<li class="nav-item dropdown">
 						<a class="nav-link  text-white dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false" aria-haspopup="true">
-                             <i class="fa fa-user"></i>  My Account
+                             <i class="fa fa-user"></i> Login
+
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 							{% if user.is_authenticated %}
@@ -81,7 +83,8 @@
 								  {% endif %}
 			
 						</ul>
-					  </li>                                                               
+					  </li>
+					</li>                                                               
 				</ul>
 				<div class="social-links my-2 my-lg-0">
 					
