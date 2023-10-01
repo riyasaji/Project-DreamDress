@@ -309,7 +309,7 @@ ol {
 }
 
 .site-navbar.bg-dark {
-	background-color: #5d3333 !important;
+	background-color: #0d0d0d !important;
 }
 
 .site-logo h2 {
@@ -365,7 +365,7 @@ ol {
 }
 
 .hs-item {
-	height: 974px;
+	height: 500px;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -382,7 +382,7 @@ ol {
 
 .hs-item h2 {
 	font-size: 160px;
-	color: rgb(244, 228, 11);
+	color: rgb(180, 169, 20);
 	font-weight: 400;
 	margin-bottom: 20px;
 	position: relative;
@@ -399,7 +399,7 @@ ol {
 .hs-item .next-hs {
 	position: absolute;
 	width: 302px;
-	height: 350px;
+	height: 200px;
 	right: -55px;
 	border: 20px solid #fff;
 	border-right: none;
@@ -409,7 +409,7 @@ ol {
 .hs-item .nest-hs-btn {
 	position: absolute;
 	left: 0;
-	top: 50%;
+	top: 25%;
 	color: #fff;
 	font-size: 18px;
 	padding: 8px 33px;
