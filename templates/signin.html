@@ -1,6 +1,8 @@
-{% load static %}
+
+{% extends 'base.html' %}
 <!doctype html>
 <html lang="en">
+	{% block content%}
   <head>
   	<title>Login 10</title>
     <meta charset="utf-8">
@@ -13,18 +15,18 @@
 	<link rel="stylesheet" href="/static/css/style1.css">
 
 	</head>
-	<body class="img js-fullheight" style="background-image: url(images/bg.jpg);">
+	<body class="img js-fullheight" style="background-image: url(/static/simages/bg.jpg);">
 	<section class="ftco-section">
 		<div class="container">
-			<div class="row justify-content-center">
+			<!--<div class="row justify-content-center">
 				<div class="col-md-6 text-center mb-5">
-					<h2 class="heading-section">Login #10</h2>
+					<h2 class="heading-section"><img src="/static/img/favicon.png" alt="" width="40" height="40"><span> Dream</span>Dress</h2>
 				</div>
-			</div>
+			</div>-->
 			<div class="row justify-content-center">
 				<div class="col-md-6 col-lg-4">
 					<div class="login-wrap p-0">
-		      	<h3 class="mb-4 text-center">Have an account?</h3>
+		      	<h3 class="mb-4 text-center">Login Here</h3>
 		      	<form action="#" class="signin-form">
 		      		<div class="form-group">
 		      			<input type="text" class="form-control" placeholder="Username" required>
@@ -50,8 +52,8 @@
 	          </form>
 	          <p class="w-100 text-center">&mdash; Or Sign In With &mdash;</p>
 	          <div class="social d-flex text-center">
-	          	<a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span> Facebook</a>
-	          	<a href="#" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> Twitter</a>
+	          	<a href="#" class="px-2 py-2 mr-md-1 rounded"><span class="ion-logo-facebook mr-2"></span>GOOGLE</a>
+	          	<!--<a href="#" class="px-2 py-2 ml-md-1 rounded"><span class="ion-logo-twitter mr-2"></span> Twitter</a>-->
 	          </div>
 		      </div>
 				</div>
@@ -66,4 +68,5 @@
 
 	</body>
 </html>
+{% endblock %}
 
