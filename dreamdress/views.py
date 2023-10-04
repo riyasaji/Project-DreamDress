@@ -15,18 +15,5 @@ def about(request):
 def signin(request):
     return render(request,'signin.html')
 
-def register(request):
-    if request.method=='POST': 
-      username=request.POST['username']
-      email=request.POST['email']
-      password=request.POST['password']
-
-      if User.objects.filter(email=email).exits():
-        messages.info(request,"this email already exists")
-        return redirect('register')
-      else:
-        user=User.objects.create_user(username=username,email=email,password=password)
-        user.save();
-      return redirect('/')
-    else:
-        return render(request,'register.html')
+def registration(request):
+    return render(request,'registration.html')

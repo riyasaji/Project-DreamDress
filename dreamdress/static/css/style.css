@@ -306,6 +306,7 @@ ol {
 
 .site-navbar {
 	padding: 15px 70px;
+	position: fixed;
 }
 
 .site-navbar.bg-dark {
